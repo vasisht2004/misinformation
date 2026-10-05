@@ -1,0 +1,109 @@
+view,topic,platform,count
+all_claims,Nutrition and food safety,Facebook,142
+all_claims,Nutrition and food safety,X/Twitter,27
+all_claims,Nutrition and food safety,Social media,43
+all_claims,Nutrition and food safety,WhatsApp,8
+all_claims,Nutrition and food safety,Instagram,18
+all_claims,Nutrition and food safety,Other,19
+all_claims,Other,Facebook,36
+all_claims,Other,X/Twitter,3
+all_claims,Other,Social media,11
+all_claims,Other,WhatsApp,0
+all_claims,Other,Instagram,3
+all_claims,Other,Other,4
+all_claims,Medicines and treatments,Facebook,28
+all_claims,Medicines and treatments,X/Twitter,9
+all_claims,Medicines and treatments,Social media,2
+all_claims,Medicines and treatments,WhatsApp,6
+all_claims,Medicines and treatments,Instagram,4
+all_claims,Medicines and treatments,Other,0
+all_claims,Vaccines,Facebook,12
+all_claims,Vaccines,X/Twitter,20
+all_claims,Vaccines,Social media,3
+all_claims,Vaccines,WhatsApp,6
+all_claims,Vaccines,Instagram,1
+all_claims,Vaccines,Other,2
+all_claims,Infectious diseases,Facebook,13
+all_claims,Infectious diseases,X/Twitter,15
+all_claims,Infectious diseases,Social media,5
+all_claims,Infectious diseases,WhatsApp,6
+all_claims,Infectious diseases,Instagram,3
+all_claims,Infectious diseases,Other,1
+all_claims,Public health,Facebook,10
+all_claims,Public health,X/Twitter,10
+all_claims,Public health,Social media,6
+all_claims,Public health,WhatsApp,5
+all_claims,Public health,Instagram,0
+all_claims,Public health,Other,1
+excl_fc_intl,Nutrition and food safety,Facebook,44
+excl_fc_intl,Nutrition and food safety,X/Twitter,12
+excl_fc_intl,Nutrition and food safety,Social media,13
+excl_fc_intl,Nutrition and food safety,WhatsApp,6
+excl_fc_intl,Nutrition and food safety,Instagram,7
+excl_fc_intl,Nutrition and food safety,YouTube,6
+excl_fc_intl,Infectious diseases,Facebook,13
+excl_fc_intl,Infectious diseases,X/Twitter,14
+excl_fc_intl,Infectious diseases,Social media,5
+excl_fc_intl,Infectious diseases,WhatsApp,6
+excl_fc_intl,Infectious diseases,Instagram,2
+excl_fc_intl,Infectious diseases,YouTube,2
+excl_fc_intl,Medicines and treatments,Facebook,21
+excl_fc_intl,Medicines and treatments,X/Twitter,7
+excl_fc_intl,Medicines and treatments,Social media,2
+excl_fc_intl,Medicines and treatments,WhatsApp,6
+excl_fc_intl,Medicines and treatments,Instagram,3
+excl_fc_intl,Medicines and treatments,YouTube,5
+excl_fc_intl,Public health,Facebook,8
+excl_fc_intl,Public health,X/Twitter,9
+excl_fc_intl,Public health,Social media,5
+excl_fc_intl,Public health,WhatsApp,5
+excl_fc_intl,Public health,Instagram,0
+excl_fc_intl,Public health,YouTube,1
+excl_fc_intl,Vaccines,Facebook,6
+excl_fc_intl,Vaccines,X/Twitter,16
+excl_fc_intl,Vaccines,Social media,1
+excl_fc_intl,Vaccines,WhatsApp,5
+excl_fc_intl,Vaccines,Instagram,0
+excl_fc_intl,Vaccines,YouTube,0
+excl_fc_intl,Healthcare services,Facebook,7
+excl_fc_intl,Healthcare services,X/Twitter,11
+excl_fc_intl,Healthcare services,Social media,2
+excl_fc_intl,Healthcare services,WhatsApp,2
+excl_fc_intl,Healthcare services,Instagram,2
+excl_fc_intl,Healthcare services,YouTube,1
+exclude_factcrescendo,Infectious diseases,X/Twitter,10
+exclude_factcrescendo,Infectious diseases,Facebook,9
+exclude_factcrescendo,Infectious diseases,WhatsApp,3
+exclude_factcrescendo,Infectious diseases,Social media,2
+exclude_factcrescendo,Infectious diseases,YouTube,2
+exclude_factcrescendo,Infectious diseases,Instagram,1
+exclude_factcrescendo,Medicines and treatments,X/Twitter,7
+exclude_factcrescendo,Medicines and treatments,Facebook,15
+exclude_factcrescendo,Medicines and treatments,WhatsApp,4
+exclude_factcrescendo,Medicines and treatments,Social media,2
+exclude_factcrescendo,Medicines and treatments,YouTube,4
+exclude_factcrescendo,Medicines and treatments,Instagram,2
+exclude_factcrescendo,Healthcare services,X/Twitter,11
+exclude_factcrescendo,Healthcare services,Facebook,6
+exclude_factcrescendo,Healthcare services,WhatsApp,2
+exclude_factcrescendo,Healthcare services,Social media,2
+exclude_factcrescendo,Healthcare services,YouTube,1
+exclude_factcrescendo,Healthcare services,Instagram,2
+exclude_factcrescendo,Vaccines,X/Twitter,15
+exclude_factcrescendo,Vaccines,Facebook,4
+exclude_factcrescendo,Vaccines,WhatsApp,3
+exclude_factcrescendo,Vaccines,Social media,1
+exclude_factcrescendo,Vaccines,YouTube,0
+exclude_factcrescendo,Vaccines,Instagram,0
+exclude_factcrescendo,Public health,X/Twitter,9
+exclude_factcrescendo,Public health,Facebook,4
+exclude_factcrescendo,Public health,WhatsApp,3
+exclude_factcrescendo,Public health,Social media,4
+exclude_factcrescendo,Public health,YouTube,1
+exclude_factcrescendo,Public health,Instagram,0
+exclude_factcrescendo,Nutrition and food safety,X/Twitter,8
+exclude_factcrescendo,Nutrition and food safety,Facebook,10
+exclude_factcrescendo,Nutrition and food safety,WhatsApp,1
+exclude_factcrescendo,Nutrition and food safety,Social media,3
+exclude_factcrescendo,Nutrition and food safety,YouTube,3
+exclude_factcrescendo,Nutrition and food safety,Instagram,0

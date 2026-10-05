@@ -1,0 +1,5 @@
+site,title_contains,field,new_value,reason
+pti,Trump being in coma,health_related,No,Politician illness hoax excluded by protocol
+pti,Elon Musk asked good wishes,health_related,No,Celebrity illness hoax excluded by protocol
+indiatoday,Putin collapsing,health_related,No,Politician illness hoax excluded by protocol
+indiatoday,Brazilian bike rally,health_related,No,Primary claim concerns video location not health

@@ -1,0 +1,56 @@
+User-agent: *
+Allow: /
+
+# Block admin and system directories
+Disallow: /admin/
+Disallow: /xhr/
+Disallow: /staging/
+
+# Block search pages and query parameters that cause crawl traps
+Disallow: /search/
+Disallow: /search?*
+Disallow: /*?s=
+Disallow: /*?q=
+Disallow: /*?query=
+Disallow: /*?keyword=
+
+# Block preview and embed URLs (non-content)
+Disallow: /preview/story-
+Disallow: /amp/preview/story-
+Disallow: /embed/
+
+# Block common pagination, sorting, filtering parameters to avoid crawl bloat
+Disallow: /*?page=
+Disallow: /*?sort=
+Disallow: /*?order=
+Disallow: /*?filter=
+
+# Block known low-value internal paths
+Disallow: /alfoo
+Disallow: /sildoo
+Disallow: /dutas
+Disallow: /metsmall
+
+# Block font files to save crawl budget (no SEO impact)
+Disallow: /*.woff$
+Disallow: /*.woff2$
+Disallow: /*.ttf$
+Disallow: /*.otf$
+
+# Block external social platform URL prefixes to avoid unnecessary crawl
+Disallow: /platform.twitter.com/
+Disallow: /www.instagram.com/
+
+# Allow CSS, JS, and images needed for rendering and Discover
+Allow: /*.css$
+Allow: /*.js$
+Allow: /images/
+
+# Explicitly allow Googlebot-News full access
+User-agent: Googlebot-News
+Allow: /
+
+# Sitemaps to help Google discover your content efficiently
+Sitemap: https://www.boomlive.in/news-sitemap-daily.xml
+Sitemap: https://www.boomlive.in/sitemap-daily.xml
+Sitemap: https://www.boomlive.in/sitemap-daily-updated.xml

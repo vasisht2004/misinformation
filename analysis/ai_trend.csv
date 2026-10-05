@@ -1,0 +1,13 @@
+view,year,health_n,health_ai_n,health_ai_pct,nonhealth_n,nonhealth_ai_n,nonhealth_ai_pct
+all_claims,2022,67,0,0.0,1929,3,0.2
+all_claims,2023,56,5,8.9,2127,63,3.0
+all_claims,2024,84,7,8.3,2041,128,6.3
+all_claims,2025,150,2,1.3,2224,377,17.0
+excl_fc_intl,2022,60,0,0.0,1793,2,0.1
+excl_fc_intl,2023,52,5,9.6,1970,63,3.2
+excl_fc_intl,2024,39,7,17.9,1850,120,6.5
+excl_fc_intl,2025,46,2,4.3,2066,366,17.7
+exclude_factcrescendo,2022,44,0,0.0,1457,1,0.1
+exclude_factcrescendo,2023,43,5,11.6,1680,60,3.6
+exclude_factcrescendo,2024,17,7,41.2,1407,115,8.2
+exclude_factcrescendo,2025,18,2,11.1,1534,348,22.7

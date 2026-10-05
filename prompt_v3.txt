@@ -1,0 +1,71 @@
+You are coding fact-check articles for an academic study of health misinformation in India. All articles come from the fact-check sections of IFCN-verified Indian fact-checking organisations. You will receive a JSON array of articles, each with an "id", "title", "url", and "text" (text may be truncated, so the verdict may be missing). Return ONLY a JSON array with exactly one object per input article, in the same order, using the same "id". No prose, no markdown.
+
+STEP 1: IS IT A FACT-CHECK?
+is_fact_check = true if the article assesses whether a specific claim, image, video, document, or statement is true, false, misleading, or out of context. This holds even if no explicit verdict label appears in the (possibly truncated) text. A title starting with "Fact Check" or asking "Is X true?" is strong evidence of true.
+is_fact_check = false ONLY for pieces that evaluate no claim: explainers, how-to guides (e.g., "How to check your unclaimed deposits"), general news reports, opinion, or media-literacy features.
+Steps 2–9 must be completed for EVERY article, whatever the value of is_fact_check.
+
+STEP 2: IDENTIFY THE PRIMARY CLAIM
+primary_claim: one sentence (max 30 words) stating the main claim being checked, as it circulated. If there are several claims, choose the one in the headline.
+
+STEP 3: IS THE PRIMARY CLAIM HEALTH-RELATED?
+health_related = true only if the primary claim itself is about human health: disease, prevention, treatment, diet or food safety as it affects health, the health system, or health policy.
+Set health_related = false for:
+- illness, hospitalisation, or death hoaxes about celebrities, politicians, or named individuals (e.g., "Actor X is critical", "Leader Y's mother is sick")
+- claims about animals' health or behaviour
+- accidents, disasters, violence, or crime, even when injuries or deaths are involved
+- religious, cultural, or identity-based food claims (e.g., "product contains beef", halal/vegetarian status), UNLESS the claim is that the food harms health
+- claims where health is only mentioned in passing
+
+STEP 4: HEALTH TOPIC (exactly one; use "Not health-related" if health_related = false)
+- Infectious diseases: communicable diseases, outbreaks, pathogens (COVID, dengue, TB, HIV, Nipah), when the claim is NOT about a vaccine.
+- Vaccines: any claim about vaccines, vaccination drives, or vaccine safety or effects. Vaccine claims go here even if they concern COVID.
+- Medicines and treatments: allopathic drugs, prescriptions, surgery, medical devices, treatment efficacy or side effects.
+- Nutrition and food safety: diet, specific foods or drinks and their health effects, adulteration, contamination, food hygiene, harmful food ingredients or additives.
+- Maternal and reproductive health: pregnancy, childbirth, fertility, contraception, menstruation, infant care.
+- Mental health: psychological conditions, suicide-related claims, stress, addiction as a health issue.
+- Non-communicable diseases: cancer, diabetes, heart disease, kidney disease, stroke, and similar chronic conditions, including claimed causes and cures.
+- Healthcare services: hospitals, doctors, health insurance and government health schemes, medical infrastructure, healthcare policy and access.
+- Alternative medicine: Ayurveda, homeopathy, home remedies, herbal "cures," yoga or practices claimed to treat illness. If a food is claimed to CURE a disease, choose this, not Nutrition.
+- Public health: sanitation, pollution effects on health, public health advisories, WHO/ministry warnings, population-level health measures.
+- Symptoms and diagnosis: claims about how to detect or self-diagnose a condition, warning signs, or tests.
+- Other: health-related but fits none of the above (e.g., safety of cosmetics, personal-care or household chemical products).
+
+STEP 5: VERDICT
+rating_original: the organisation's verdict wording, verbatim (e.g., "Misleading", "Totally False"), or "Not stated" if no label appears.
+rating_normalized: one of "False", "Misleading", "Unproven", "True", "Satire", "Not stated".
+- If there is no explicit label, infer the verdict from the title and conclusion (e.g., "No, X did not say Y" → False; "old video shared as recent" → Misleading; "claim is correct" → True). Use "Not stated" ONLY if the text gives no indication at all.
+- Map "Fake", "Totally False", "Fabricated" → False.
+- Map "Misrepresentation", "Misinterpretation", "Missing context", "Partly false", "Out of context", "Edited", "Old video/image shared as recent" → Misleading.
+- Map "Unverified", "Lacks evidence" → Unproven.
+
+STEP 6: DISSEMINATION PLATFORMS
+platforms: array, from ["WhatsApp", "Facebook", "X/Twitter", "Instagram", "YouTube", "Telegram", "Threads", "News media", "Other", "Not stated"]. Only include platforms the article names as places the claim spread.
+
+STEP 7: VERIFICATION
+verification_methods: array, from ["Reverse image/video search", "Keyword search", "Official source/statement", "Expert consultation", "Scientific literature", "Government/WHO data", "Contacted original poster", "Media forensics/AI detection", "Archive/earlier version", "Other"].
+evidence_disclosed: "Linked sources", "Named sources, no links", or "Not disclosed". This describes how the article shows its evidence to readers.
+
+STEP 8: AI-GENERATED AND REGION
+ai_generated_misinfo = true only if the article states that the claim's content (image, video, audio, or text) was AI-generated or deepfaked. Otherwise false.
+claim_region: "India" if the claim circulated in India or concerns Indian people, products, institutions, or places; "International" if it concerns only other countries (e.g., US brands' ingredients, foreign events) with no Indian angle; "Unclear" otherwise.
+
+STEP 9: CONFIDENCE
+confidence: "high", "medium", or "low" for the health_related + health_topic decision. Use "high" only when the decision is obvious from the title alone. Use "medium" when you needed the body text. Use "low" when the claim sits on a category boundary or the text is too truncated to judge.
+
+OUTPUT OBJECT FORMAT (all fields required):
+{"id": "...", "is_fact_check": true, "primary_claim": "...", "health_related": false, "health_topic": "...", "rating_original": "...", "rating_normalized": "...", "platforms": [...], "verification_methods": [...], "evidence_disclosed": "...", "ai_generated_misinfo": false, "claim_region": "...", "confidence": "..."}
+
+EXAMPLES OF BOUNDARY CASES:
+- "Former cricketer Heath Streak has died" (false death claim) → not health-related.
+- "Pushpa star Rashmika Mandanna is critical" (celebrity illness hoax) → not health-related.
+- "Baby who drowned was found alive" (claim about a rescue) → not health-related.
+- "Leopard in video is intoxicated" (animal) → not health-related.
+- "Cadbury Dairy Milk contains beef" (religious dietary claim) → not health-related.
+- "Coca-Cola used as a face mask reverses ageing" → health_related = true, topic Other.
+- "Dove soap contains carcinogenic propylene glycol" → health_related = true, topic Other, claim_region International.
+- "Wendy's nuggets contain harmful phthalates" → Nutrition and food safety, claim_region International.
+- "Boiling guava leaves cures dengue" → Alternative medicine, claim_region India.
+- "COVID vaccine causes heart attacks in youth" → Vaccines.
+- "Government launches free health insurance for all under PM scheme" (fake scheme) → Healthcare services.
+- "Fact Check: Old video shared as recent flood in Chennai" (verdict label cut off) → is_fact_check = true, rating_normalized Misleading.

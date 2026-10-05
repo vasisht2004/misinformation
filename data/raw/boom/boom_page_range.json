@@ -1,0 +1,288 @@
+{
+  "start_page": 16,
+  "end_page": 175,
+  "last_valid_page": 222,
+  "earliest_reachable_date": "2020-12-30",
+  "sidebar_ids": [
+    32208,
+    32241,
+    32284,
+    32285,
+    32300
+  ],
+  "link_filter": "fact-check-fast-check-subcategory-id-4-6",
+  "start_page_date": "2025-12-30",
+  "end_page_date": "2022-01-03",
+  "reaches_2022": true,
+  "buffer_pages": 2,
+  "crawl_start": 14,
+  "crawl_end": 177,
+  "window_start": "2022-01-01",
+  "window_end": "2025-12-31",
+  "probes": [
+    {
+      "kind": "validity",
+      "page": 1000,
+      "valid": false,
+      "non_sidebar_count": 0,
+      "cached_listing": false
+    },
+    {
+      "kind": "validity",
+      "page": 500,
+      "valid": false,
+      "non_sidebar_count": 0,
+      "cached_listing": false
+    },
+    {
+      "kind": "validity",
+      "page": 250,
+      "valid": false,
+      "non_sidebar_count": 0,
+      "cached_listing": false
+    },
+    {
+      "kind": "validity",
+      "page": 125,
+      "valid": true,
+      "non_sidebar_count": 18,
+      "cached_listing": false
+    },
+    {
+      "kind": "validity",
+      "page": 187,
+      "valid": true,
+      "non_sidebar_count": 17,
+      "cached_listing": false
+    },
+    {
+      "kind": "validity",
+      "page": 218,
+      "valid": true,
+      "non_sidebar_count": 18,
+      "cached_listing": false
+    },
+    {
+      "kind": "validity",
+      "page": 234,
+      "valid": false,
+      "non_sidebar_count": 0,
+      "cached_listing": false
+    },
+    {
+      "kind": "validity",
+      "page": 226,
+      "valid": false,
+      "non_sidebar_count": 0,
+      "cached_listing": false
+    },
+    {
+      "kind": "validity",
+      "page": 222,
+      "valid": true,
+      "non_sidebar_count": 5,
+      "cached_listing": false
+    },
+    {
+      "kind": "validity",
+      "page": 224,
+      "valid": false,
+      "non_sidebar_count": 0,
+      "cached_listing": false
+    },
+    {
+      "kind": "validity",
+      "page": 223,
+      "valid": false,
+      "non_sidebar_count": 0,
+      "cached_listing": false
+    },
+    {
+      "page": 222,
+      "listing_url": "https://www.boomlive.in/fact-check/222",
+      "article_url": "https://www.boomlive.in/fact-check/fake-news-fact-check-2020-year-ender-finance-economics-data-misinformation-banks-money-indian-economy-gdp-11358",
+      "article_id": 11358,
+      "date": "2020-12-30",
+      "valid": true,
+      "non_sidebar_count": 5,
+      "kind": "date",
+      "cached": false
+    },
+    {
+      "page": 111,
+      "listing_url": "https://www.boomlive.in/fact-check/111",
+      "article_url": "https://www.boomlive.in/fact-check/fact-check-viral-video-street-play-iraq-isis-sex-slave-auction-the-kerala-story-22000",
+      "article_id": 22000,
+      "date": "2023-05-19",
+      "valid": true,
+      "non_sidebar_count": 18,
+      "kind": "date",
+      "cached": false
+    },
+    {
+      "page": 167,
+      "listing_url": "https://www.boomlive.in/fact-check/167",
+      "article_url": "https://www.boomlive.in/fact-check/fake-news-ukraine-russia-soldiers-wife-couple-goodbye-crying-war-fact-check-16934",
+      "article_id": 16934,
+      "date": "2022-02-26",
+      "valid": true,
+      "non_sidebar_count": 18,
+      "kind": "date",
+      "cached": false
+    },
+    {
+      "page": 195,
+      "listing_url": "https://www.boomlive.in/fact-check/195",
+      "article_url": "https://www.boomlive.in/fact-check/2020-namaz-video-from-bangladesh-shared-as-indian-muslims-capturing-ganga-knee-deep-water-14157",
+      "article_id": 14157,
+      "date": "2021-08-04",
+      "valid": true,
+      "non_sidebar_count": 18,
+      "kind": "date",
+      "cached": false
+    },
+    {
+      "page": 181,
+      "listing_url": "https://www.boomlive.in/fact-check/181",
+      "article_url": "https://www.boomlive.in/fact-check/politics/fake-news-cropped-video-congress-rashid-alvi-jai-shre-ram-speech-bjp-leaders-amit-malviya-factcheck-15633",
+      "article_id": 15633,
+      "date": "2021-11-17",
+      "valid": true,
+      "non_sidebar_count": 18,
+      "kind": "date",
+      "cached": false
+    },
+    {
+      "page": 174,
+      "listing_url": "https://www.boomlive.in/fact-check/174",
+      "article_url": "https://www.boomlive.in/fact-check/fake-news-david-bowie-predicting-internet-viral-video-spoof-16345",
+      "article_id": 16345,
+      "date": "2022-01-11",
+      "valid": true,
+      "non_sidebar_count": 18,
+      "kind": "date",
+      "cached": false
+    },
+    {
+      "page": 177,
+      "listing_url": "https://www.boomlive.in/fact-check/177",
+      "article_url": "https://www.boomlive.in/fact-check/politics/muslims-convert-to-hinduism-viral-picture-fact-check-fake-news-16028",
+      "article_id": 16028,
+      "date": "2021-12-15",
+      "valid": true,
+      "non_sidebar_count": 17,
+      "kind": "date",
+      "cached": false
+    },
+    {
+      "page": 175,
+      "listing_url": "https://www.boomlive.in/fact-check/175",
+      "article_url": "https://www.boomlive.in/fast-check/old-images-resurface-as-restaurant-serving-biryani-with-impotency-pills-16239",
+      "article_id": 16239,
+      "date": "2022-01-03",
+      "valid": true,
+      "non_sidebar_count": 17,
+      "kind": "date",
+      "cached": false
+    },
+    {
+      "page": 176,
+      "listing_url": "https://www.boomlive.in/fact-check/176",
+      "article_url": "https://www.boomlive.in/fast-check/fake-news-uttar-pradesh-women-give-birth-to-a-child-every-week-rahul-gandhi-factcheck-16115",
+      "article_id": 16115,
+      "date": "2021-12-22",
+      "valid": true,
+      "non_sidebar_count": 18,
+      "kind": "date",
+      "cached": false
+    },
+    {
+      "page": 88,
+      "listing_url": "https://www.boomlive.in/fact-check/88",
+      "article_url": "https://www.boomlive.in/fact-check/gaza-israel-palestine-hamas-airstrike-war-conflict-children-sudan-water-tanker-fuel-23408",
+      "article_id": 23408,
+      "date": "2023-10-23",
+      "valid": true,
+      "non_sidebar_count": 18,
+      "kind": "date",
+      "cached": false
+    },
+    {
+      "page": 44,
+      "listing_url": "https://www.boomlive.in/fact-check/44",
+      "article_url": "https://www.boomlive.in/fact-check/bangladesh-video-two-hindu-men-burnt-alive-old-video-halloween-china-27235",
+      "article_id": 27235,
+      "date": "2024-12-14",
+      "valid": true,
+      "non_sidebar_count": 18,
+      "kind": "date",
+      "cached": false
+    },
+    {
+      "page": 22,
+      "listing_url": "https://www.boomlive.in/fact-check/22",
+      "article_url": "https://www.boomlive.in/fact-check/assamese-singer-zubeen-garg-singapore-scuba-diving-death-cpr-video-viral-ai-generated-fact-check-29588",
+      "article_id": 29588,
+      "date": "2025-09-25",
+      "valid": true,
+      "non_sidebar_count": 18,
+      "kind": "date",
+      "cached": false
+    },
+    {
+      "page": 11,
+      "listing_url": "https://www.boomlive.in/fact-check/11",
+      "article_url": "https://www.boomlive.in/fact-check/fake-news-viral-video-al-jazeera-anchor-resigning-ai-video-fact-check-30886",
+      "article_id": 30886,
+      "date": "2026-03-20",
+      "valid": true,
+      "non_sidebar_count": 19,
+      "kind": "date",
+      "cached": false
+    },
+    {
+      "page": 16,
+      "listing_url": "https://www.boomlive.in/fact-check/16",
+      "article_url": "https://www.boomlive.in/fact-check/cm-yogi-demanding-resigns-from-narendra-modi-on-bangladesh-violence-is-fake-30362",
+      "article_id": 30362,
+      "date": "2025-12-30",
+      "valid": true,
+      "non_sidebar_count": 22,
+      "kind": "date",
+      "cached": false
+    },
+    {
+      "page": 13,
+      "listing_url": "https://www.boomlive.in/fact-check/13",
+      "article_url": "https://www.boomlive.in/fact-check/viral-video-iran-attack-us-air-base-saudi-arabia-claim-fact-check-30782",
+      "article_id": 30782,
+      "date": "2026-03-01",
+      "valid": true,
+      "non_sidebar_count": 18,
+      "kind": "date",
+      "cached": false
+    },
+    {
+      "page": 14,
+      "listing_url": "https://www.boomlive.in/fact-check/14",
+      "article_url": "https://www.boomlive.in/fact-check/fake-news-viral-screenshot-modi-jashodaben-statement-modi-destroyed-evidence-marriage-factcheck-30661",
+      "article_id": 30661,
+      "date": "2026-02-10",
+      "valid": true,
+      "non_sidebar_count": 18,
+      "kind": "date",
+      "cached": false
+    },
+    {
+      "page": 15,
+      "listing_url": "https://www.boomlive.in/fact-check/15",
+      "article_url": "https://www.boomlive.in/fact-check/republic-day-indian-army-motorcycle-stunt-ai-generated-video-false-claim-fake-fact-check-30558",
+      "article_id": 30558,
+      "date": "2026-01-28",
+      "valid": true,
+      "non_sidebar_count": 18,
+      "kind": "date",
+      "cached": false
+    }
+  ]
+}

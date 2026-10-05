@@ -1,0 +1,145 @@
+view,year,topic,count,pct
+all_claims,2022,Nutrition and food safety,7,10.4
+all_claims,2022,Other,1,1.5
+all_claims,2022,Medicines and treatments,6,9.0
+all_claims,2022,Vaccines,12,17.9
+all_claims,2022,Infectious diseases,8,11.9
+all_claims,2022,Public health,11,16.4
+all_claims,2022,Alternative medicine,7,10.4
+all_claims,2022,Healthcare services,8,11.9
+all_claims,2022,Non-communicable diseases,2,3.0
+all_claims,2022,Maternal and reproductive health,2,3.0
+all_claims,2022,Symptoms and diagnosis,3,4.5
+all_claims,2022,Mental health,0,0.0
+all_claims,2023,Nutrition and food safety,13,23.2
+all_claims,2023,Other,2,3.6
+all_claims,2023,Medicines and treatments,7,12.5
+all_claims,2023,Vaccines,10,17.9
+all_claims,2023,Infectious diseases,9,16.1
+all_claims,2023,Public health,4,7.1
+all_claims,2023,Alternative medicine,3,5.4
+all_claims,2023,Healthcare services,6,10.7
+all_claims,2023,Non-communicable diseases,1,1.8
+all_claims,2023,Maternal and reproductive health,1,1.8
+all_claims,2023,Symptoms and diagnosis,0,0.0
+all_claims,2023,Mental health,0,0.0
+all_claims,2024,Nutrition and food safety,44,52.4
+all_claims,2024,Other,6,7.1
+all_claims,2024,Medicines and treatments,9,10.7
+all_claims,2024,Vaccines,1,1.2
+all_claims,2024,Infectious diseases,5,6.0
+all_claims,2024,Public health,2,2.4
+all_claims,2024,Alternative medicine,8,9.5
+all_claims,2024,Healthcare services,2,2.4
+all_claims,2024,Non-communicable diseases,6,7.1
+all_claims,2024,Maternal and reproductive health,1,1.2
+all_claims,2024,Symptoms and diagnosis,0,0.0
+all_claims,2024,Mental health,0,0.0
+all_claims,2025,Nutrition and food safety,87,58.0
+all_claims,2025,Other,30,20.0
+all_claims,2025,Medicines and treatments,9,6.0
+all_claims,2025,Vaccines,3,2.0
+all_claims,2025,Infectious diseases,3,2.0
+all_claims,2025,Public health,6,4.0
+all_claims,2025,Alternative medicine,2,1.3
+all_claims,2025,Healthcare services,4,2.7
+all_claims,2025,Non-communicable diseases,2,1.3
+all_claims,2025,Maternal and reproductive health,3,2.0
+all_claims,2025,Symptoms and diagnosis,0,0.0
+all_claims,2025,Mental health,1,0.7
+excl_fc_intl,2022,Nutrition and food safety,7,11.7
+excl_fc_intl,2022,Infectious diseases,7,11.7
+excl_fc_intl,2022,Medicines and treatments,6,10.0
+excl_fc_intl,2022,Public health,11,18.3
+excl_fc_intl,2022,Vaccines,8,13.3
+excl_fc_intl,2022,Healthcare services,7,11.7
+excl_fc_intl,2022,Alternative medicine,7,11.7
+excl_fc_intl,2022,Other,1,1.7
+excl_fc_intl,2022,Non-communicable diseases,2,3.3
+excl_fc_intl,2022,Maternal and reproductive health,1,1.7
+excl_fc_intl,2022,Symptoms and diagnosis,3,5.0
+excl_fc_intl,2022,Mental health,0,0.0
+excl_fc_intl,2023,Nutrition and food safety,11,21.2
+excl_fc_intl,2023,Infectious diseases,9,17.3
+excl_fc_intl,2023,Medicines and treatments,7,13.5
+excl_fc_intl,2023,Public health,3,5.8
+excl_fc_intl,2023,Vaccines,10,19.2
+excl_fc_intl,2023,Healthcare services,6,11.5
+excl_fc_intl,2023,Alternative medicine,3,5.8
+excl_fc_intl,2023,Other,1,1.9
+excl_fc_intl,2023,Non-communicable diseases,1,1.9
+excl_fc_intl,2023,Maternal and reproductive health,1,1.9
+excl_fc_intl,2023,Symptoms and diagnosis,0,0.0
+excl_fc_intl,2023,Mental health,0,0.0
+excl_fc_intl,2024,Nutrition and food safety,13,33.3
+excl_fc_intl,2024,Infectious diseases,5,12.8
+excl_fc_intl,2024,Medicines and treatments,7,17.9
+excl_fc_intl,2024,Public health,1,2.6
+excl_fc_intl,2024,Vaccines,0,0.0
+excl_fc_intl,2024,Healthcare services,2,5.1
+excl_fc_intl,2024,Alternative medicine,5,12.8
+excl_fc_intl,2024,Other,2,5.1
+excl_fc_intl,2024,Non-communicable diseases,3,7.7
+excl_fc_intl,2024,Maternal and reproductive health,1,2.6
+excl_fc_intl,2024,Symptoms and diagnosis,0,0.0
+excl_fc_intl,2024,Mental health,0,0.0
+excl_fc_intl,2025,Nutrition and food safety,19,41.3
+excl_fc_intl,2025,Infectious diseases,3,6.5
+excl_fc_intl,2025,Medicines and treatments,4,8.7
+excl_fc_intl,2025,Public health,4,8.7
+excl_fc_intl,2025,Vaccines,1,2.2
+excl_fc_intl,2025,Healthcare services,3,6.5
+excl_fc_intl,2025,Alternative medicine,2,4.3
+excl_fc_intl,2025,Other,6,13.0
+excl_fc_intl,2025,Non-communicable diseases,1,2.2
+excl_fc_intl,2025,Maternal and reproductive health,2,4.3
+excl_fc_intl,2025,Symptoms and diagnosis,0,0.0
+excl_fc_intl,2025,Mental health,1,2.2
+exclude_factcrescendo,2022,Infectious diseases,5,11.4
+exclude_factcrescendo,2022,Medicines and treatments,5,11.4
+exclude_factcrescendo,2022,Healthcare services,7,15.9
+exclude_factcrescendo,2022,Vaccines,6,13.6
+exclude_factcrescendo,2022,Public health,8,18.2
+exclude_factcrescendo,2022,Nutrition and food safety,4,9.1
+exclude_factcrescendo,2022,Alternative medicine,4,9.1
+exclude_factcrescendo,2022,Non-communicable diseases,2,4.5
+exclude_factcrescendo,2022,Maternal and reproductive health,0,0.0
+exclude_factcrescendo,2022,Symptoms and diagnosis,2,4.5
+exclude_factcrescendo,2022,Mental health,0,0.0
+exclude_factcrescendo,2022,Other,1,2.3
+exclude_factcrescendo,2023,Infectious diseases,7,16.3
+exclude_factcrescendo,2023,Medicines and treatments,7,16.3
+exclude_factcrescendo,2023,Healthcare services,6,14.0
+exclude_factcrescendo,2023,Vaccines,10,23.3
+exclude_factcrescendo,2023,Public health,3,7.0
+exclude_factcrescendo,2023,Nutrition and food safety,5,11.6
+exclude_factcrescendo,2023,Alternative medicine,3,7.0
+exclude_factcrescendo,2023,Non-communicable diseases,1,2.3
+exclude_factcrescendo,2023,Maternal and reproductive health,1,2.3
+exclude_factcrescendo,2023,Symptoms and diagnosis,0,0.0
+exclude_factcrescendo,2023,Mental health,0,0.0
+exclude_factcrescendo,2023,Other,0,0.0
+exclude_factcrescendo,2024,Infectious diseases,3,17.6
+exclude_factcrescendo,2024,Medicines and treatments,4,23.5
+exclude_factcrescendo,2024,Healthcare services,2,11.8
+exclude_factcrescendo,2024,Vaccines,0,0.0
+exclude_factcrescendo,2024,Public health,0,0.0
+exclude_factcrescendo,2024,Nutrition and food safety,3,17.6
+exclude_factcrescendo,2024,Alternative medicine,2,11.8
+exclude_factcrescendo,2024,Non-communicable diseases,3,17.6
+exclude_factcrescendo,2024,Maternal and reproductive health,0,0.0
+exclude_factcrescendo,2024,Symptoms and diagnosis,0,0.0
+exclude_factcrescendo,2024,Mental health,0,0.0
+exclude_factcrescendo,2024,Other,0,0.0
+exclude_factcrescendo,2025,Infectious diseases,3,16.7
+exclude_factcrescendo,2025,Medicines and treatments,2,11.1
+exclude_factcrescendo,2025,Healthcare services,2,11.1
+exclude_factcrescendo,2025,Vaccines,0,0.0
+exclude_factcrescendo,2025,Public health,4,22.2
+exclude_factcrescendo,2025,Nutrition and food safety,2,11.1
+exclude_factcrescendo,2025,Alternative medicine,2,11.1
+exclude_factcrescendo,2025,Non-communicable diseases,1,5.6
+exclude_factcrescendo,2025,Maternal and reproductive health,1,5.6
+exclude_factcrescendo,2025,Symptoms and diagnosis,0,0.0
+exclude_factcrescendo,2025,Mental health,1,5.6
+exclude_factcrescendo,2025,Other,0,0.0

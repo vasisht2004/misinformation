@@ -1,0 +1,29 @@
+view,site,group,n,pct_false,pct_misleading,pct_ai_generated,pct_expert_consultation,pct_scientific_literature,pct_linked_sources
+all_claims,BOOM,health,57,77.2,19.3,8.8,10.5,3.5,42.1
+all_claims,BOOM,non-health,2745,79.5,20.0,7.9,5.0,0.1,51.4
+all_claims,Fact Crescendo,health,235,45.1,54.5,0.0,16.6,42.1,75.7
+all_claims,Fact Crescendo,non-health,2243,61.4,38.3,2.1,2.5,0.2,73.5
+all_claims,India Today,health,30,70.0,30.0,6.7,20.0,3.3,40.0
+all_claims,India Today,non-health,1812,64.1,35.5,3.6,7.9,0.1,51.3
+all_claims,PTI,health,35,71.4,28.6,20.0,25.7,11.4,74.3
+all_claims,PTI,non-health,1521,77.4,22.3,15.9,2.2,0.0,57.5
+all_claims,Pooled,health,357,54.9,44.3,3.9,16.8,29.7,67.2
+all_claims,Pooled,non-health,8321,70.9,28.7,6.9,4.4,0.1,58.4
+excl_fc_intl,BOOM,health,57,77.2,19.3,8.8,10.5,3.5,42.1
+excl_fc_intl,BOOM,non-health,2745,79.5,20.0,7.9,5.0,0.1,51.4
+excl_fc_intl,Fact Crescendo,health,75,52.0,46.7,0.0,20.0,29.3,76.0
+excl_fc_intl,Fact Crescendo,non-health,1601,61.3,38.4,1.7,2.5,0.0,72.0
+excl_fc_intl,India Today,health,30,70.0,30.0,6.7,20.0,3.3,40.0
+excl_fc_intl,India Today,non-health,1812,64.1,35.5,3.6,7.9,0.1,51.3
+excl_fc_intl,PTI,health,35,71.4,28.6,20.0,25.7,11.4,74.3
+excl_fc_intl,PTI,non-health,1521,77.4,22.3,15.9,2.2,0.0,57.5
+excl_fc_intl,Pooled,health,197,65.5,33.0,7.1,18.3,14.7,60.4
+excl_fc_intl,Pooled,non-health,7679,71.6,28.0,7.2,4.6,0.0,56.9
+exclude_factcrescendo,BOOM,health,57,77.2,19.3,8.8,10.5,3.5,42.1
+exclude_factcrescendo,BOOM,non-health,2745,79.5,20.0,7.9,5.0,0.1,51.4
+exclude_factcrescendo,India Today,health,30,70.0,30.0,6.7,20.0,3.3,40.0
+exclude_factcrescendo,India Today,non-health,1812,64.1,35.5,3.6,7.9,0.1,51.3
+exclude_factcrescendo,PTI,health,35,71.4,28.6,20.0,25.7,11.4,74.3
+exclude_factcrescendo,PTI,non-health,1521,77.4,22.3,15.9,2.2,0.0,57.5
+exclude_factcrescendo,Pooled,health,122,73.8,24.6,11.5,17.2,5.7,50.8
+exclude_factcrescendo,Pooled,non-health,6078,74.4,25.2,8.6,5.2,0.0,52.9
